@@ -8,6 +8,7 @@ on their unique taste.
 Our Tech stack for this application is:
 Java 11
 React 18
+NodeJS v16.17
 Gradle 7.5
 HTML
 CSS
