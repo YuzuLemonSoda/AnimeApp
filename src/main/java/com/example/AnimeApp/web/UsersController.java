@@ -1,7 +1,7 @@
 package com.example.AnimeApp.web;
 
-import com.example.AnimeApp.model.User;
-import com.example.AnimeApp.model.UserRepository;
+import com.example.AnimeApp.model.user.User;
+import com.example.AnimeApp.model.user.UserRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

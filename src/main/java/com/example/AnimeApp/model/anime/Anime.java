@@ -1,4 +1,4 @@
-package com.example.AnimeApp.model;
+package com.example.AnimeApp.model.anime;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
