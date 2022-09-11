@@ -1,4 +1,4 @@
-package com.example.AnimeApp.model;
+package com.example.AnimeApp.model.user;
 
 
 import org.springframework.data.mongodb.repository.MongoRepository;
