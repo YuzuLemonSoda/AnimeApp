@@ -2,22 +2,23 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {X_RapidAPI_Key, X_RapidAPI_Host} from './api_keys.js';
+import Navbar from './partials/navbar';
 
 const App = () => {
 
   const [groups, setGroups] = useState([]);
   const [loading, setLoading] = useState(false);
 
-//  useEffect(() => {
-//    setLoading(true);
-//
-//    fetch('api/groups')
-//      .then(response => response.json())
-//      .then(data => {
-//        setGroups(data);
-//        setLoading(false);
-//      })
-//  }, []);
+ // useEffect(() => {
+ //   setLoading(true);
+ //
+ //   fetch('api/groups')
+ //     .then(response => response.json())
+ //     .then(data => {
+ //       setGroups(data);
+ //       setLoading(false);
+ //     })
+ // }, []);
 
   const axios = require("axios");
 
@@ -43,6 +44,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <div id={"navbar"}><Navbar/></div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="App-intro">
