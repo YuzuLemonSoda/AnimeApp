@@ -2,7 +2,11 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {X_RapidAPI_Key, X_RapidAPI_Host} from './api_keys.js';
-import Navbar from './partials/navbar';
+import {render} from "react-dom";
+import {BrowserRouter} from "react-router-dom";
+import {Link} from "react-router-dom";
+
+import Navbar from './views/partials/navbar';
 
 const App = () => {
 
