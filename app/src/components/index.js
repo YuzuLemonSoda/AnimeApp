@@ -7,19 +7,19 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
-           <NavLink to="/home" activeStyle>
+           <NavLink to="/" activestyle={{fontWeight: "bold", color: "red"}}>
             Home
             </NavLink>
-          <NavLink to="/about" activeStyle>
+          <NavLink to="/about" activestyle={{fontWeight: "bold", color: "red"}}>
             About
           </NavLink>
-          <NavLink to="/rankings" activeStyle>
+          <NavLink to="/rankings" activestyle={{fontWeight: "bold", color: "red"}}>
             Top 25 Anime
           </NavLink>
-          <NavLink to="/user" activeStyle>
+          <NavLink to="/user" activestyle={{fontWeight: "bold", color: "red"}}>
             User
           </NavLink>
-          <NavLink to="/sign-up" activeStyle>
+          <NavLink to="/sign-up" activestyle={{fontWeight: "bold", color: "red"}}>
             Sign Up
           </NavLink>
         </NavMenu>
